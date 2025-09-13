@@ -1,0 +1,205 @@
+/* Phone & small devices (max-width 768px) */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .content {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+
+
+@media only screen and (min-width:300px) and (max-width:600px){
+    /* .BOX2{
+background-color: green;
+  
+        width: 60%;
+    min-height: 1400px;
+    } */
+    /* .CIRCLE{
+            transform: rotate(90deg);
+    } */
+    /* .UNDER {
+   
+    top: 129%;
+    left: 54%;
+    } */
+
+    /* two same TYPE AND H1 purpose*/
+    
+    /* .BOX2{
+    h1{
+
+ position: relative;
+    left: 55%;
+    top: 143%;    }} */
+
+    /* .TYPES{
+    position: relative;
+    left: 55%;
+    top: 143%;
+    } */
+    /* .PARA1 {
+ 
+    top: -41%;
+    left: -15%;
+    transform: rotate(-90deg);
+} */
+/* .PARA2 {
+ 
+    left: -6%;
+    top: -31%;
+    transform: rotate(-90deg);
+} */
+/* .PARA3 {
+
+    top: -31%;
+    left: -6%;
+    transform: rotate(-90deg);
+} */
+/* .PARA4 {
+ 
+    bottom: 12%;
+    left: -4%;
+    transform: rotate(-90deg);
+} */
+
+/* THIRD BOX */
+/* .HEROPig {
+  
+    top: 5%;
+    left: 17%;
+} */
+/* .ABOUTBX2 {
+     top: 16%;
+    right: 5%;
+} */
+/* .MORE-USED-DIV {
+   
+    bottom: 19%;
+    left: 7%;
+} */
+/* .ABOUTBX1 {
+   
+    top: 16%;
+    left: 10%;
+} */
+/* .w-25{
+    width: 37% !important;
+} */
+/* .PARABOX {
+
+    margin-left: 58px;
+} */
+/* .BOX3 {
+ height: 768px;
+} */
+.CURVE {
+    width: 150px;
+    height: 130px;
+    
+    clip-path: path("M 0 100 Q 97 -45, 131 88 L 136 113 Q 69 53, 0 100 Z");
+}
+.ROTATE {
+  top: 12%;
+}
+.CURVE5 {
+ right: 23%;
+ top: 13%;
+}
+.CURVE4 {
+   right: 5%;
+    top: 26%;
+}
+.CURVE3 {
+  bottom: 30%;
+right: 10%;
+}
+.CURVE2 {
+  bottom: 24%;
+ left: 31%;
+}.CURVE1 {
+  top: 35%;
+left: 10%;
+}
+.CURVE6 {
+   left: 20%;
+    top: 17%;
+}
+.CURVE{
+    h3{
+        font-size: 18px;
+    }
+}
+/* .PRICE1-IN2 {
+  width: 35.5%;
+  top: 302%;
+} */
+/* html code */
+/* .d-flex {
+    display: flex !important;
+    flex-direction: column;
+} */
+/* .ARROW {
+  
+    top: -133px;
+    right: -32%;
+} */
+/* .ARROW-FRONT {
+   
+    top: 40px;
+    left: 51%;
+} */
+/* .BX8-1{
+    
+    margin-left: 33%;
+} */
+/* .ARROW-CENTER {
+    h1 {
+        font-size: 50px;
+        margin-left: 38%;
+    }
+} */
+/* .ARROW-CENTER {
+    P {
+        font-size: 18px;
+        margin-left: 31%;
+}
+} */
+/* .FORM {
+  margin: 43px;
+} */
+/* .NUMBER {
+    width: 32%;
+} */
+/* .PLACES {
+    
+    bottom: 37px;
+    right: -179%;
+} */
+/* .LOGO-ICON {
+    background-color: brown;
+    width: 64%;
+    display: grid;
+    justify-content: space-between;
+    margin-top: 1%; 
+} */
+}
+@media only screen and (min-width:600px) and (max-width:900px)
+{
+
+}
