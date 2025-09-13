@@ -1,29 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <title>My website2 Single page</title>
-
-    <link rel="stylesheet" type="text/css" href="./Single-Webpage.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <!-- <script src="https://kit.fontawesome.com/b289ee77c5.js" crossorigin="anonymous"></script> -->
-    <meta name="viewport" type="width=content-width,initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/b289ee77c5.js" crossorigin="anonymous"></script>
-    
-  </head>
-  <body>
-    <div class="collapse" id="navbarToggleExternalContent">
+    <head>
+        <title>Single Webpage</title>
+        <link rel="stylesheet" type="text/css" href="./Single-Webpage.css" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous"
+          />
+        <script src="https://kit.fontawesome.com/b289ee77c5.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+           <!-- ******************************** 1st box navbar Hide project Topic ********************************* -->
+    <div class="collapse"  id="navbarToggleExternalContent" >
       <div class="bg-dark p-4">
         <h5 class="text-white h4 text-center">AC Installation</h5>
-        <!-- <span class="text-muted">Toggleable via the navbar brand.</span> -->
       </div>
     </div>
-    <nav class="navbar navbar-dark bg-dark">
-      <div class="container-fluid">
+
+            <!-- ******************************** 1st box nav bar outside show  ********************************* -->
+    <nav class="navbar navbar-dark w-100 bg-dark">
+      <div class="container-fluid"> 
         <button
           class="navbar-toggler"
           type="button"
@@ -33,34 +32,43 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class=""> Single Page</span>
+          <span class=""> Project Title</span>
         </button>
       </div>
     </nav>
-    <!-- As a link -->
+   <!-- ******************************** This is the navbar for  1st box  ********************************* -->
+    <!-- own add -->
+      <nav class="NAVBAR">
+    
 
-    <nav class="navbar navbar-light bg-light border-3 pt-3 pb-3 rounded-3 m-3">
-      <div class="container-fluid">
-        <span class="navbar-brand mb-0 h1">Home</span>
-        <span class="navbar-brand mb-0 h1">About Us</span>
-        <span class="navbar-brand mb-0 h1">Services</span>
-        <span class="navbar-brand mb-0 h1">Pricing</span>
-        <span class="navbar-brand mb-0 h1 bg-warning">AC</span>
-        <span class="navbar-brand mb-0 h1">Testimonials</span>
-        <span class="navbar-brand mb-0 h1">Appointment</span>
-        <span class="navbar-brand mb-0 h1">Contact Us</span>
-      </div>
+      <!-- Checkbox for toggle -->
+      <input type="checkbox" id="menu-toggle" />
+
+      <!-- Label acts as button -->
+      <label for="menu-toggle" class="menu-icon">☰</label>
+
+      <ul >
+        <li><b><a href="#">Home</a></b></li>
+        <li><b><a href="#">About Us</a></b></li>
+           <li><b><a href="#">Services</a></b></li>
+           <li><b><a href="#">Pricing</a></b></li>
+           
+             <img src="./Frame 27.png" alt="">
+              <li><b><a href="#">Testimonials</a></b></li>
+        <li><b><a href="#">Appointment</a></b></li>
+        <li><b><a href="#">Contact Us</a></b></li>
+      </ul>
     </nav>
-    <!-- As a heading -->
-    <div
-      class="FIRST-CONTAINER d-flex justify-content-center  w-100 "
-    >
+   
+    <!-- ************************* 1- CONTAINER & As a heading ********************************* -->
+  <div class="BXBX-1">
+    <div class="FIRST-CONTAINER d-flex justify-content-center  w-100 ">
       <div class="COLUMN-DIV d-flex flex-column fs-2 ">
         <b><span>N</span></b>
         <b><span class="fs-3"> e</span></b>
         <b><span>W</span></b>
       </div>
-      <!--1st BOX -->
+   
 
       <div class="AC-INSTALL-CONTAINER border border-info border-3 position-relative  ">
         <!-- 1 BOX in paragraph and heading and button-->
@@ -73,42 +81,91 @@
             your home.
           </p>
          
-          <button type="button" class="btn   BOOKING-ARROW " for="button-arrow-link"><i id="button-arrow-link"class="fa-solid fa-arrow-right"></i> Booking Nows</button>
+          <button type="button" class="btn w-50 BOOKING-ARROW " for="button-arrow-link"><i id="button-arrow-link"class="fa-solid fa-arrow-right"></i> Booking Nows</button>
         </div>
-        <div class="AC-INSTALL-BX"></div>
+        <!-- Hide box support billor  -->
+        <div class="AC-INSTALL-BX ">  </div>
         <!--1st BOX 3 img-->
+        <div class="IMG-REC-HOLEBX">
         <img class="IMAGE1"src="./Rectangle 31 (1).png" alt="Pic" />
         <div class=" FRT-HIDE p-2"></div>
-           <div class=" SECONDHIDE"></div>
-           <div class=" THRIDHIDE"></div>
-            <div class=" FOURTHHIDE p-3"></div>
-            <div class=" p-3 FIFTHHIDE"></div>
+        <div class=" SECONDHIDE"></div>
+        <div class=" THRIDHIDE"></div>
+        <div class=" FOURTHHIDE p-3"></div>
+        <div class=" p-3 FIFTHHIDE"></div>
           
         <img class="IMAGE2" src="./Rectangle 75.png" alt="Pic" />
         <img class="IMAGE3" src="./Rectangle 32.png" alt="Pic" />
-            <img class="IMAGE4" src="./Rectangle 33.png" alt="Pic" />
-     
+        <img class="IMAGE4" src="./Rectangle 33.png" alt="Pic" />
+     </div>
           </div>
     </div>
-    <!--2nd BOX-->
-    <div class="BOX2">
-      <div class="mx-auto bg-warning text-center  TYPES" >
- <h1>TYPE OF INSTALLATION</h1>
-</div>
-<div class="UNDERLINE">
-
-</div>
-<div class="CIRCLE d-flex justify-content-center gap-0 position-relative">
-<div class="TYPECIRCLE"></div>
-
-<div class="TYPECIRCLE"></div>
-<div class="TYPECIRCLE"></div>
-<div class="TYPECIRCLE"></div>
-<div class="SQUARE"></div>
-
-</div>
     </div>
-    <div class="BOX3">
+
+    <!-- ****************************************** 2- CONTAINER ************************************************** -->
+      
+  <div class="BOX2">
+      <div class="mx-auto  text-center  TYPES " >
+         <h1>TYPE OF INSTALLATION</h1>
+      <div class="UNDER ">
+        <img src="./Rectangle 81.png" alt="">
+      </div>
+</div>
+
+<div class="CIRCLE  d-flex justify-content-center position-relative ">
+<div class="IMAGE-BX1 COM-IMGBX">
+  <img  class="ONE" src="./Ellipse 3.png" alt="">
+  <div class="PARA1">
+  <p>Split AC </p>
+  <p>Installation</p>
+  </div>
+  <img class="TWO" src="./Ellipse 1.png" alt="">
+  <img   class="THREE"src="./Polygon 2.png" alt="">
+  <img class="FOUR" src="./Polygon 7.png" alt="">
+
+</div>
+<h2>1</h2>
+<div class="IMAGE-BX2 COM-IMGBX">
+  <img class="FIVE" src="./Ellipse 4.png" alt="">
+  <div class="PARA2">
+  <p>Window AC </p>
+  <p>Installation</p>
+  </div>
+<img class="SIX" src="./Ellipse 2.png" alt="">
+<img class="SEVEN" src="./Polygon 3.png" alt="">
+<img class="NINE" src="./Polygon 8.png" alt="">
+</div>
+<h2>2</h2>
+<div class="IMAGE-BX3 COM-IMGBX">
+
+<img class="TEN" src="./Ellipse 6.png" alt="">
+<div class="PARA3">
+<p>Central AC</p>
+<p>Installation</p>
+</div>
+<img class="IMG11"src="./Ellipse 5.png" alt="">
+<img class="IMG17"src="./Polygon 4.png" alt="">
+
+<img class="IMG12"src="./Polygon 10.png" alt="">
+</div>
+<h2>3</h2>
+<div class="IMAGE-BX4   COM-IMGBX">
+  <img class="IMG13"class="IMG12"src="./Polygon 6.png" alt="">
+
+<img class="IMG18"src="./Ellipse 8.png" alt="">
+<div class="PARA4">
+  <p>Cassette AC</p>
+  <p>Installation</p>
+  </div>
+<img class="IMG14" src="./Ellipse 7.png" alt="">
+<img class="IMG15"src="./Polygon 5.png" alt="">
+<img class="IMG16"src="./Polygon 9.png" alt="">
+</div>
+</div>
+</div>
+
+   <!-- *********** 3- CONTAINER ********** -->
+     <div class="BOX3">
    
       <div class="CONTAINER d-flex justify-content-between ">
 <div class="ABOUTIMG  p-4 position-relative">
@@ -156,8 +213,7 @@
    <div class="DOT DOT40"></div>
    <div class="DOT DOT41"></div>
    <div class="DOT DOT42"></div>
-   
-  </div>
+   </div>
   <img class="HEROPig" src="./Rectangle 54.png" alt="Hero Pic">
 <img class="SMALLPic  top-md--100" src="./Rectangle 55.png" alt=" Small Pic">
 <div class="ABOUTBX2  ">
@@ -165,15 +221,11 @@
       <h3>25+</h3>
       <p>Years of Experience</p>
     </div>
-
-
 </div>
-
 </div>
-
 <div class="PARABOX  mt-5 ">
-     <h1  > About</h1>
-<h2 class="ps-3"><b><span >Welcome</span> to Ac Services</b></h2>
+  <h1  > About</h1>
+<h3 class="ps-3"><b><span >Welcome</span> to Ac Services</b></h3>
 <b><p>We provide expert installation services for all types of air conditioning systems.
   whether it's for your home or commercial space, our technicians ensure a smooth and secure setup.
   we provide expert installation services for all types of air conditioning systems.
@@ -181,13 +233,19 @@
 </p>
 <p> we provide expert installation services for all types of air conditioning systems.
 </p></b>
- <button type="button" class="btn  w-25 BOOKING-ARROW " for="button-arrow-link"><i id="button-arrow-link"class="fa-solid fa-arrow-right"></i> Booking Nows</button>
+<button type="button" class="btn  BOOKING-ARROW " for="button-arrow-link"><i id="button-arrow-link"class="fa-solid fa-arrow-right"></i> Booking Nows</button>
 </div>
 </div>
-    </div>
-
-    <!--4 TH BOX-->
-<div class="BOX4 d-flex">
+</div>
+<!-- ******************************************** CONTAINER 4 ********************************************-->
+      <div class="mx-auto  text-center  TYPES TYPES1" >
+         <h1>SERVICES</h1>
+      <div class="UNDER  ">
+        <img src="./Rectangle 83.png" alt="">
+      </div>
+</div>
+<div class="BOX4">
+  
   <div class="SERVICE-LEFT ">
 
 
@@ -221,14 +279,24 @@
   <div class="ROTATE text text-light ">
 
 <div class="CURVE CURVE1">
-  <h3>Service 2</h3>
+  <h3>Service 1</h3>
 
 </div>
-<div class="CURVE CURVE2"></div>
-<div class="CURVE CURVE3"></div>
-<div class="CURVE CURVE4"></div>
-<div class="CURVE CURVE5"></div>
-<div class="CURVE CURVE6"></div>
+<div class="CURVE CURVE2">
+    <h3>Service 2</h3>
+</div>
+<div class="CURVE CURVE3">
+    <h3>Service 3</h3>
+</div>
+<div class="CURVE CURVE4">
+    <h3>Service 4</h3>
+</div>
+<div class="CURVE CURVE5">
+    <h3>Service 5</h3>
+</div>
+<div class="CURVE CURVE6">
+    <h3>Service 6</h3>
+</div>
   </div>
   <div class="SERVICE-RIGHT">
   
@@ -257,33 +325,404 @@
       <p>Preventive Health Checks</p>
   </div>
   </div>
-</div>
+</div> 
 
-<!--5-th box-->
+<!-- CONTAINER 5 -->
+
 <div class="BOX5 ">
-  <h1>Pricing</h1>
+ 
+   <div class="mx-auto  text-center  TYPES " >
+         <h1>PRICING</h1>
+      <div class="UNDER">
+        <img src="./Rectangle 84.png" alt="">
+      </div>
+</div>
+ 
+  <section CLASS="FIFTH-SIBLING "> 
   <div class="PRICING PRICE1">
-    <div class="PRICEIN1-PRICE-IN1">
-      <h1>Today Services Offer $ 30</h1>
+    <div class="PRICEIN-PRICE1-IN1">
+      <h1>Today Services </h1>
+        <h1> Offer <b><span>$30</span></b></h1>
       <p>Free plan for all users</p>
     </div>
-    <div class="PRICEIN1-PRICE-IN2"></div>
-    <div class="PRICEIN1-PRICE-IN3">
-      <i class="fa-solid fa-circle-check"></i><p> <i class="fa-solid fa-circle-check"></i> Deep Cleaning Service</p>
+ 
+    <div class="PRICEIN-PRICE1-IN2">
+
+    </div>
+    <div class="PRICEIN-PRICE1-IN3">
+     <p> <i class="fa-solid fa-circle-check"></i> Deep Cleaning Service</p>
       <p>   <i class="fa-solid fa-circle-check"></i> AC Gas Top-Up</p>
       <p>  <i class="fa-solid fa-circle-check"></i> AC Gas Filling </p>
       <p>  <i class="fa-solid fa-circle-check"></i> AC Water Leakage Fix</p>
       <button>Booking</button>
     </div>
-    <div class="PRICEIN1-PRICE-IN4"></div>
+    <div class="PRICEIN-PRICE1-IN4"></div>
   </div>
-  <div class="PRICING PRICE2"></div>
-  <div class="PRICING PRICE3"></div>
+ 
+ 
+ 
+ 
+ <div class="PRICE2">
+   <div class="PRICING PRICE2">
+       <div class="PRICEIN-PRICE2-IN1">
+      <h1><b><span>$65 </span> </b> Professional</h1>
+      <p>Free plan for all users</p>
+    </div>
+    <!-- <div class="PRICEIN-PRICE2-IN2">
+      
+    </div> -->
+    
+       <img class="IMG-1 IMG-V"src="./Vector 21.png" alt="">
+    <img class="IMG-2 IMG-V" src="./Vector 22.png" alt="">
+    <img class="IMG-3 IMG-V" src="./Vector 20.png" alt="">
+    <div  class="PRICEIN-PRICE2-IN3">
+      <p> <i class="fa-solid fa-circle-check"></i> Deep Cleaning Service</p>
+      <p>   <i class="fa-solid fa-circle-check"></i> AC Gas Top-Up</p>
+      <p>  <i class="fa-solid fa-circle-check"></i> AC Gas Filling </p>
+      <p>  <i class="fa-solid fa-circle-check"></i> AC Water Leakage Fix</p>
+      <button>Booking</button>
+    </div>
+    
+    <!-- <div class="PRICEIN-PRICE2-IN4"></div> -->
+   </div>
+ </div>
+
+
+ <div class="PRICE3">
+  <div class="PRICING PRICE3">
+       <div class="PRICEIN-PRICE3-IN1">
+      <h1> <b><span> $80 </span></b>Professional </h1>
+      <p>Free plan for all users</p>
+
+    </div>
+    <!-- <div class="PRICEIN-PRICE3-IN2"></div> -->
+    <img class="position-absolute IMG-3-P"src="./Vector 23.png" alt="">
+    
+    <div class="PRICEIN-PRICE3-IN3">
+     <p> <i class="fa-solid fa-circle-check"></i> Deep Cleaning Service</p>
+      <p>   <i class="fa-solid fa-circle-check"></i> AC Gas Top-Up</p>
+      <p>  <i class="fa-solid fa-circle-check"></i> AC Gas Filling </p>
+      <p>  <i class="fa-solid fa-circle-check"></i> AC Water Leakage Fix</p>
+      
+      <button>Booking</button>
+    </div>
+    <!-- <div class="PRICEIN-PRICE3-IN4"></div> -->
+  </div>
+  </div>
+</section>
 </div>
-    <script
+
+ <!-- CONTAINER 6 -->
+    <div class="mx-auto  text-center  TYPES " >
+         <h1>Testimonial</h1>
+          <div class="UNDER ">
+         <img src="./Rectangle 85.png" alt="">
+      </div>
+      </div>
+
+<div class="BOX6">
+  <!-- <h1 class="bg-warning text-center">Testimonial</h1> -->
+<div class="TESTTI TEMONIALSTTIMONIAL1">
+<div class="SECOND-DOT">
+  <div class="BOX6DOT BOX6DOT1"></div>
+  <div class="BOX6DOT BOX6DOT2"></div>
+  <div class="BOX6DOT BOX6DOT3"></div>
+  <div class="BOX6DOT BOX6DOT4"></div>
+  <div class="BOX6DOT BOX6DOT5"></div>
+  <div class="BOX6DOT BOX6DOT6"></div>
+  <div class="BOX6DOT BOX6DOT7"></div>
+  <div class="BOX6DOT BOX6DOT8"></div>
+  <div class="BOX6DOT BOX6DOT9"></div>
+  <div class="BOX6DOT BOX6DOT10"></div>
+  <div class="BOX6DOT BOX6DOT11"></div>
+  <div class="BOX6DOT BOX6DOT12"></div>
+  <div class="BOX6DOT BOX6DOT13"></div>
+  <div class="BOX6DOT BOX6DOT14"></div>
+  <div class="BOX6DOT BOX6DOT15"></div>
+  <div class="BOX6DOT BOX6DOT16"></div>
+  <div class="BOX6DOT BOX6DOT17"></div>
+  <div class="BOX6DOT BOX6DOT18"></div>
+  <div class="BOX6DOT BOX6DOT19"></div>
+  <div class="BOX6DOT BOX6DOT20"></div>
+  <div class="BOX6DOT BOX6DOT21"></div>
+  <div class="BOX6DOT BOX6DOT22"></div>
+  <div class="BOX6DOT BOX6DOT23"></div>
+  <div class="BOX6DOT BOX6DOT24"></div>
+  <div class="BOX6DOT BOX6DOT25"></div>
+  <div class="BOX6DOT BOX6DOT26"></div>
+  <div class="BOX6DOT BOX6DOT27"></div>
+  <div class="BOX6DOT BOX6DOT28"></div>
+  <div class="BOX6DOT BOX6DOT29"></div>
+  <div class="BOX6DOT BOX6DOT30"></div>
+  <div class="BOX6DOT BOX6DOT31"></div>
+  <div class="BOX6DOT BOX6DOT32"></div>
+  <div class="BOX6DOT BOX6DOT33"></div>
+  <div class="BOX6DOT BOX6DOT34"></div>
+  <div class="BOX6DOT BOX6DOT35"></div>
+  <div class="BOX6DOT BOX6DOT36"></div>
+  <div class="BOX6DOT BOX6DOT37"></div>
+  <div class="BOX6DOT BOX6DOT38"></div>
+  <div class="BOX6DOT BOX6DOT39"></div>
+  <div class="BOX6DOT BOX6DOT40"></div>
+  <div class="BOX6DOT BOX6DOT41"></div>
+  <div class="BOX6DOT BOX6DOT42"></div>
+  <div class="BOX6DOT BOX6DOT43"></div>
+  <div class="BOX6DOT BOX6DOT44"></div>
+  <div class="BOX6DOT BOX6DOT45"></div>
+  <div class="BOX6DOT BOX6DOT46"></div>
+    <div class="BOX6DOT BOX6DOT47"></div>
+      <div class="BOX6DOT BOX6DOT48"></div>
+</div>
+</div>
+<div class="TESTTIMONIAL TESTTIMONIAL2">
+  <div class="COMPANY-NAME">
+    <i id="Q"class="fa-solid fa-quote-left"></i>
+  <p> At [Your Company Name],we specialize in deliverring top-notch air conditioning services tailored to your  needs. 
+    With year of experience and a team of certified technicians, we have built a reputation for reliability, affordability.
+
+  </p>
+  <p>At [Your Company Name],we specialize in deliverring top-notch air conditioning services taifor reliability, affordability, and quality service.</p>
+</div>
+
+<div class="VJ-IMG">
+  <img src="./Rectangle 45.png" alt="img">
+  <b><h2 class="text-center ">Vijay</h2></b>
+  <!-- <div class="YELLOW-SQR">
+    <div class="YELLOW-BX YELLOW-BX1">
+        <div class="YELLOW-BX YELLOW-BX2">
+           <div class="YELLOW-BX YELLOW-BX3">
+              <div class="YELLOW-BX YELLOW-BX4"></div>
+           </div>
+        </div>
+    </div>
+
+   </div> -->
+  
+  </div>
+</div>
+
+
+<div class="CHANGE-DOT-PARANT">
+
+<div class="CHANGE-DOT CHANGE-DOT1"></div>
+<div class="CHANGE-DOT CHANGE-DOT2"></div>
+<div class="CHANGE-DOT CHANGE-DOT3"></div>
+<div class="CHANGE-DOT CHANGE-DOT4"></div>
+<div class="CHANGE-DOT CHANGE-DOT5"></div>
+<div class="CHANGE-DOT CHANGE-DOT6"></div>
+</div>
+</div>
+<!--  CONTAINER 7 -->
+     <div class="mx-auto  text-center  TYPES " >
+         <h1>Appointment</h1>
+ <div class="UNDER  ">
+         <img src="./Rectangle 85.png" alt="">
+      </div>
+      </div>
+
+<div class="BOX7">
+
+<!-- Frist two div-->
+ <div class="FORM FORM1 d-flex  ">
+
+  <!-- box-7 in send message bx-->
+<div class="MASSAGE-BX">
+  <b><h2>Send us a Message</h2></b>
+  <p>Do You have a question a complete or need any help to choose 
+    the right product from AC Service right product from zalomi feel free</p>
+
+<!--Form More details-->
+    <form action="" class="d-grid gap-4">
+
+
+          <div class="row">
+            <div class="col">
+              <label ><b>Frist Name</b></label>
+              <input
+                type="text"
+                class="form-control   rounded-pill  "
+                placeholder="Enter Your First name"
+                aria-label="First name"
+              />
+            </div>
+            <div class="col">
+              <label><b>Last Name</b></label>
+              <input
+                type="text"
+                class="form-control  rounded-pill"
+                placeholder="Enter Your Email"
+                aria-label="Last name"
+              />
+            </div>
+          </div>
+          <div class="row">
+           <div class="col">
+              <label><b>Email</b></label>
+              <input
+                type="text"
+                class="form-control  rounded-pill"
+                placeholder="Enter Your Email"
+                aria-label="Email"
+              />
+            </div>
+            <div class="col">
+              <label><b>Mobile</b></label>
+              <input
+                type="text"
+                class="form-control  rounded-pill"
+                placeholder="Enter Your Mobile Number"
+                aria-label="Last name"
+              />
+            </div> 
+          </div>
+           <div class="row">
+           <div class="col">
+              <labe1><b>Address</b></label>
+              <input
+                type="text"
+                class="form-control  rounded-pill"
+                placeholder="Enter Your Address"
+                aria-label="Address"
+              />
+            </div>
+            <div class="col">
+              <label><b>Services</b></label>
+              <input
+                type="text"
+                class="form-control  rounded-pill"
+                placeholder="Enter Your Services"
+                aria-label="Services"
+              />
+            </div> 
+          </div>
+              <div class="d-grid  w-25 gap-2 col-6 mx-auto">
+  <button class="btn BUTTON rounded-pill" type="button">Send a Massage</button>
+  </div>
+        </form>
+
+  </div>
+ 
+  <!-- NAME INPUTS-->
+
+   <div class="FORM-BX">
+<h3>Hi! We are always here to help You</h3>
+<div class="HELP-BX d-flex gap-5">
+  <i class="fa-solid fa-phone"></i> 
+  <div class="HELPBX-IN">
+    <p>Hotline:</p>
+    <p>+91 8975643521</p>
+  </div>
+</div>
+
+<div class="HELP-BX d-flex gap-5">
+<i class="fa-solid fa-envelope"></i>
+  <div class="HELPBX-IN">
+    <p>SMS/Whatsapp</p>
+    <p>+91 8975643521</p>
+  </div>
+</div>
+
+<div class="HELP-BX d-flex gap-5">
+  <i class="fa-solid fa-phone"></i> 
+  <div class="HELPBX-IN">
+    <p>SMS/Whatapp</p>
+    <p>+91 8975643521</p>
+  </div>
+</div>
+<div class="LINEDIV "></div>
+<div class="HELP-CONTECT-ICON">
+  <p><b>Connect With us</b></p>
+  <div class="ICON-DIV">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-x-twitter"></i>
+  </div>
+
+</div>
+
+   </div>
+   </div>
+
+
+
+
+
+ 
+ 
+
+</div>
+<!-- CONTAINER-8 -->
+ <div class="BOX8">
+<div class="BX8 d-flex justify-content-around align-items-center justify-content-center">
+<div class="BX8-1">
+  <h1 
+   >We Are Here To </h1>
+    <h1 class="text-end">Help You</h1>
+</div>
+<div class="BX8-2 ">
+
+  <img class="ARROW-FRONT"src="./Vector.png" alt="">
+  <div class="ARROW-CENTER">
+  <h1>SUBSCRIBE</h1>
+  <p>Your email address</p>
+  </div>
+  <img class=" ARROW" src="./Vector 40 (1).png" alt="">
+  <b><button>Subscribe</button></b>
+</div>
+</div>
+</div>
+<div class="BOX9">
+
+  <div class="CONTEXT-DETAILS ">
+    <div class="LOGO-IMG  text-center">
+        <h1 class="text-center">Contact</h1>
+ <h1>AC Services You Can <span>Trust</span></h1>
+  <p>
+        Whether it's summer heat or routine service, we're just a call away.
+        Trust [Your Company Name] for all your air conditioning needs!
+      
+       Trust [Your Company Name] for all your air conditioning needs!</p>
+      <button class="NUMBER"> +91 8790875323<span>Call</span></button>
+      <div class="LOGO-ICON d-flex gap-4 ">
+       <div class="LAST-ICON">
+          <i class="fa-brands fa-facebook"></i>
+          <span><i class="fa-brands fa-instagram" ></i></span>
+           <i class="fa-brands fa-x-twitter"></i>
+       </div>
+       <div class="logo"><img src="./Frame 27.png" alt="">
+        <p>Service</p>
+      </div>
+</div>
+    </div>
+  
+  <div class="WORK-HOURS ">
+
+     <div class="">
+        <div class=" HOURS">
+          <h3>Work Hours</h3>
+          <p><i class="fa-regular fa-clock"></i>  7 AM-5 PM, Mon-Sat</p>
+        </div>
+        <div class="PLACES">
+          <h3>Branches</h3>
+          <ul>
+            <li>Madurai</li>
+            <li>Theni</li>
+            <li>Chennai</li>
+            <li>Coimbatore</li>
+            <li>Gudalore</li>
+            <li>Dharmapuri</li>
+            <li>Dindigul</li>
+          </ul>
+        </div>
+      </div>
+
+  </div>
+</div>
+</div>
+ <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-  </body>
+    </body>
 </html>
